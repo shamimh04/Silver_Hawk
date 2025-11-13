@@ -408,7 +408,7 @@
 }
 
 .footer_logo img {
-    width: 260px;
+    width: 260px !important;
     margin-bottom: 10px;
 }
 
@@ -456,45 +456,70 @@
 /*  GALLERY PAGE */
 
 .gallay_banner {
-    position: relative;
-    width: 100%;
-    height: 400px;
-}
-
-.gallay_banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-    z-index: 0;
-}
-
-.gallay_banner::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-.gallay_banner .gallary_h2 {
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    z-index: 1;
-}
-
-.gallay_banner .gallary_h2 h2{
-    text-align: center;
+    background: url(./img/AAA.png) no-repeat center/cover;
+    width: auto;
     color: #fff;
+    padding: 80px 0;
+    text-align: center;
 }
 
 
+/* about_service_page */
 
+.about_service_page {
+    background: url(./img/A-banner.png) no-repeat center/cover;
+    padding: 80px 0;
+    text-align: center;
+}
+.about_service_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
 
+.about_service_row .about_service_box {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 40px;
+}
 
+/* Ganrel Section */
+.genral_heading {
+    padding: 50px 0;
+    text-align: center;
+}
 
+.genral_section {
+    position: relative;
+    padding: 80px 0;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.genral_section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./img/genarel.png) no-repeat center/cover;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.genral_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.genral_box {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 40px;
+}
 
 
 
