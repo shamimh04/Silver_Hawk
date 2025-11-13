@@ -465,6 +465,14 @@
 
 
 /* about_service_page */
+.about_banner {
+    background: url(./img/AAA.png) no-repeat center/cover;
+    width: auto;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
 
 .about_service_page {
     background: url(./img/A-banner.png) no-repeat center/cover;
