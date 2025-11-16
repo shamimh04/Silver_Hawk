@@ -557,7 +557,7 @@
 }
 
 .ser_box p {
-    padding: 0  30px 30px 0;
+    padding: 0 30px 30px 0;
     text-align: justify;
 }
 
@@ -585,42 +585,36 @@
 
 .contact_page_section .row {
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
 }
 
 .contact_page_section h2 {
-      color: var(--main_color);
-      margin-bottom: 10px;
-}
-.contact_page_section p{
+    font-weight: 800;
     margin-bottom: 10px;
 }
 
+.contact_page_section p {
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
 
-.name_email{
+
+.name_email {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
 
 
-input {
+.contact_columm input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     font-size: 14px;
     box-sizing: border-box;
     margin-bottom: 10px;
 }
-
-
-
-
 textarea {
     width: 100%;
     padding: 10px;
@@ -630,19 +624,50 @@ textarea {
     margin: 10px 0;
 }
 
-.full-width {
-    grid-column: span 2;
+.contact_columm .btn {
+    width: auto ;
+    color: #fff;
+    border: 2px solid var(--main_color);
+    background-color: var(--main_color);
+    transition: .5s;
+}
+.contact_columm .btn:hover{
+    color: var(--main_color);
+    border: 2px solid var(--main_color);
+    background: transparent;
+
 }
 
 
-.contact_column .con_info i{
+
+
+.contact_column .con_info h2{
+
+}
+
+.contact_column .con_info i {
     display: block;
 }
 
+.contact_page_section .con_info ul li {
+    list-style: none;
+    line-height: 35px;
+    font-size: 24px;
+}
 
+.contact_page_section .con_info ul li a {
+    text-decoration: none;
+    color: #010101;
+    margin-left: 5px;
+    font-size: 16px
+}
 
-
-
+.contact_page_section .con_info ul li a strong {
+    color: var(--main_color);
+}
+.contact_page_section .con_info ul li a strong i{
+    margin-right:5px ;
+}
 
 
 
