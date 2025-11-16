@@ -73,7 +73,7 @@
     margin: auto 15px;
     font-size: 15px;
     font-weight: 600;
-    line-height: 100px;
+    line-height: 84px;
     position: relative;
 
 }
@@ -90,13 +90,14 @@
 .nav_menu ul li a::after {
     content: '';
     width: 0;
-    height: 3px;
+    height: 4px;
+    border-radius: 5px;
     background: var(--main_color);
     position: absolute;
     bottom: -32px;
     left: 50%;
     transform: translateX(-50%);
-    transition: .4s;
+    transition: .6s;
 
 }
 
@@ -479,6 +480,7 @@
     padding: 80px 0;
     text-align: center;
 }
+
 .about_service_row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -531,13 +533,111 @@
 
 
 
+/* Services page */
+
+.service_page {
+    background: #f8f8f8;
+    padding: 90px;
+}
+
+.ser_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.ser_box {
+    width: 100%;
+
+}
+
+.ser_box h3 {
+    margin: 18px 0;
+    color: var(--main_color);
+}
+
+.ser_box p {
+    padding: 0  30px 30px 0;
+    text-align: justify;
+}
 
 
 
 
 
+/* Contact Page */
 
 
+.cpntact_banner {
+    background: url(./img/AAA.png) no-repeat center/cover;
+    width: auto;
+    padding: 80px 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.contact_page_section {
+    margin-top: 10px;
+    padding: 30px 0;
+    background: #fff;
+}
+
+.contact_page_section .row {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.contact_page_section h2 {
+      color: var(--main_color);
+      margin-bottom: 10px;
+}
+.contact_page_section p{
+    margin-bottom: 10px;
+}
+
+
+.name_email{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    min-height: 100px;
+    resize: none;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.full-width {
+    grid-column: span 2;
+}
+
+
+.contact_column .con_info i{
+    display: block;
+}
 
 
 
