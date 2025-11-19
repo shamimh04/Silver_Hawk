@@ -37,6 +37,9 @@
     font-size: 13px;
     margin-right: 10px;
 }
+.top_header .Con i{
+    margin-right: 5px;
+}
 
 .top_header .flex_column a:last-child {
     margin-right: 0;
@@ -550,7 +553,10 @@
     width: 100%;
 
 }
-
+.ser_box img{
+    width: 100%;
+    
+}
 .ser_box h3 {
     margin: 18px 0;
     color: var(--main_color);
